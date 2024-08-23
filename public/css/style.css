@@ -427,7 +427,10 @@
         text-align: center;
 
     }
-
+    #get{
+        margin-left: 300px;
+        margin-right: 0px;
+    }
     /* picture scrollbar */
     #picscroll{
         overflow-x: hidden; /* Hide horizontal scrollbar */
