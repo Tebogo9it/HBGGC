@@ -6,6 +6,10 @@
     --dark: #2B3940;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -115,20 +119,6 @@
     background-repeat: none;
 }
 
-
-
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link,
-    .navbar-light .navbar-nav .nav-link  {
-        margin-right: 0;
-        padding: 10px 0;
-    }
-
-    .navbar-light .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
-}
-
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
     height: 75px;
@@ -143,28 +133,6 @@
     top: -100px;
     transition: .5s;
 }
-
-@media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        top: 100%;
-        margin-top: 0;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        opacity: 0;
-        visibility: hidden;
-        transition: .5s;
-        
-    }
-
-    .navbar .nav-item:hover .dropdown-menu {
-        transform: rotateX(0deg);
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
-}
-
 
 /*** Header ***/
 .header-carousel .container,
@@ -191,30 +159,6 @@
 .page-header .container::after {
     top: 100%;
     margin-top: -15px;
-}
-
-@media (max-width: 768px) {
-    .header-carousel .owl-carousel-item {
-        position: relative;
-        min-height: 500px;
-    }
-    
-    .header-carousel .owl-carousel-item img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .header-carousel .owl-carousel-item p {
-        font-size: 14px !important;
-        font-weight: 400 !important;
-    }
-
-    .header-carousel .owl-carousel-item h1 {
-        font-size: 30px;
-        font-weight: 600;
-    }
 }
 
 .header-carousel .owl-nav {
@@ -408,30 +352,102 @@
     border-right: none;
 }
 
-    /*Donate styles*/
-    .head1{
-        margin-top: 25px;
-        background: linear-gradient(120deg, #f03ac8,#FFFFFF);
-        padding-top: 40px;
-        padding-bottom: 40px;
+/*Donate styles*/
+.head1{
+    margin-top: 25px;
+    background: linear-gradient(120deg, #f03ac8,#FFFFFF);
+    padding-top: 40px;
+    padding-bottom: 40px;
 
+}
+
+.head{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.details{
+    text-align: center;
+
+}
+
+.get__involved {
+    background-color: white;
+    margin-bottom: -45px;
+}
+
+#get{
+    margin: auto 300px 0;
+    padding: 50px 0 30px;
+}
+
+/* picture scrollbar */
+#picscroll{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .header-carousel .owl-carousel-item {
+        position: relative;
+        min-height: 500px;
+    }
+    
+    .header-carousel .owl-carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
-    .head{
-        text-align: center;
-        font-weight: bold;
+    .header-carousel .owl-carousel-item p {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+
+    .header-carousel .owl-carousel-item h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #get{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        top: 100%;
+        margin-top: 0;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
         
     }
 
-    .details{
-        text-align: center;
-
+    .navbar .nav-item:hover .dropdown-menu {
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
     }
-    #get{
-        margin-left: 300px;
-        margin-right: 0px;
-    }
-    /* picture scrollbar */
-    #picscroll{
-        overflow-x: hidden; /* Hide horizontal scrollbar */
-    }
+}
