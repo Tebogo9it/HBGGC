@@ -134,6 +134,10 @@ body {
     transition: .5s;
 }
 
+.slider {
+    height: 700px;
+}
+
 /*** Header ***/
 .header-carousel .container,
 .page-header .container {
