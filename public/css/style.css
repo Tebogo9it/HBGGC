@@ -358,8 +358,8 @@ body {
 
 /*Donate styles*/
 .head1{
-    margin-top: 25px;
-    background: linear-gradient(120deg, #f03ac8,#FFFFFF);
+    margin-top: 0;
+    background: linear-gradient(160deg,deeppink,#FFFFFF);
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -369,10 +369,14 @@ body {
     text-align: center;
     font-weight: bold;
     
+    
 }
 
 .details{
     text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    
 
 }
 
