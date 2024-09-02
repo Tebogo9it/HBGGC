@@ -4,6 +4,7 @@
     --secondary: #2B9BFF;
     --light: #EFFDF5;
     --dark: #2B3940;
+
 }
 
 body {
@@ -406,7 +407,9 @@ body {
 #picscroll{
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
-
+.text-primary{
+    color:#f03ac8;
+}
 
 /* Media Queries */
 
