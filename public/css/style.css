@@ -355,6 +355,16 @@ body {
     padding-right: 0;
     border-right: none;
 }
+/*footer icons*/
+.m4{
+    margin-top: 7px;
+   
+}
+.mb-2{
+   
+    margin-left:25px ;
+    margin-top: -25px;
+}
 
 /*Donate styles*/
 .head1{
