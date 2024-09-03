@@ -356,6 +356,11 @@ body {
     padding-right: 0;
     border-right: none;
 }
+
+.col-lg-3{
+    margin-left: 80px ;
+
+}
 /*footer icons*/
 .m4{
     margin-top: 7px;
@@ -372,7 +377,7 @@ body {
     margin-top: 0;
     
     margin-top: 0;
-    background: linear-gradient(160deg,deeppink,#FFFFFF);
+    background: linear-gradient(160deg,deeppink,#f03ac8);
     padding-top: 40px;
     padding-bottom: 40px;
 
