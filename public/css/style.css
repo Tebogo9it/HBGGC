@@ -419,6 +419,7 @@ body {
     padding:0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-image: url("safehub.PNG");
 }
 .wrapper{
     margin: auto;
