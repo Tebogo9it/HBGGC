@@ -251,6 +251,10 @@ body {
 
 
 /*** Testimonial ***/
+.testimonial-carousel .testimonial-item {
+    height: 450px;
+}
+
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item.center .testimonial-item * {
     transition: .5s;
